@@ -1,0 +1,34 @@
+
+
+
+To change the text, title, or sound of the message:
+
+	Use Utilities > Script Editor to open fail.app or success.app
+
+	
+	Format:
+		display notification "Second line" with title "Title" sound name "sound from OSX notifications (no extension)"
+
+	Sound options include:
+		Basso (Fail notification)
+		Blow 
+		Bottle
+		Frog
+		Funk 
+		Glass (Success notification)
+		Hero
+		Morse
+		Ping
+		Pop
+		Purr
+		Sosumi
+		Tink
+
+
+To change the icons:
+	Right click on the app, and click "Show Package Contents"
+	Go to Contents/Resources and replace the applet.icns with your own icns file 
+	Online converters can convert png's to icns just fine, the only restriction is that they must be 1024x1024 or 512x512.
+
+	An alternate .icns file is available in each app for your convenience 
+
