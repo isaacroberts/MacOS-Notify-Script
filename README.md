@@ -3,7 +3,7 @@ Tired of running big jobs, browsing the internet while waiting, and then not not
 
 ![Success notification](https://i.imgur.com/J4UK78z.jpg)
 
-![Fail notification](https://i.imgur.com/MGph290.jpg)
+![Fail notification](https://i.imgur.com/AbfCAFm.jpg)
 
 To add, copy the notify folder to your computer and add the following to your bash profile:
 
