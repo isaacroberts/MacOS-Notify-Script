@@ -1,8 +1,9 @@
 # MacOS-Notify-Script
-This script notifies you when a job is complete with a OS notification center notification, an OS notification sound, and a matching success/fail icon.
+Tired of running big jobs, browsing the internet while waiting, and then not noticing when the job is complete! This bash script gives a nice little notification complete with icon, sound, and unobtrusive notification popup. 
 
-![Sample image](https://i.imgur.com/J4UK78z.jpg)
+![Success notification](https://i.imgur.com/J4UK78z.jpg)
 
+![Fail notification](https://i.imgur.com/MGph290.jpg)
 
 To add, copy the notify folder to your computer and add the following to your bash profile:
 
@@ -16,6 +17,8 @@ alias fail="open $notify_script_location/notify/fail.app"
 alias notify="success || fail"
 alias n="success || fail"
 ```
+This software is only available on OSX.
+
 
 Remember to set the notify_script_location in the bash profile.
 
