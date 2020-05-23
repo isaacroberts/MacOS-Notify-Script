@@ -1,0 +1,11 @@
+
+
+#modify this line!
+notify_script_location="~/Documents/scripts/"
+
+
+alias success="open $notify_script_location/notify/success.app"
+alias fail="open $notify_script_location/notify/fail.app"
+
+alias notify="success || fail"
+alias n="success || fail"

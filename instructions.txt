@@ -1,0 +1,17 @@
+
+
+
+
+	1) Put the notify/ folder somewhere on your computer 
+
+	2) Paste the contents of add_to_bash_profile.sh to your bash profile.
+		a) It may be named ~/.bash_profile or ~/.profile 
+		b) If you don't have one, create it with "touch ~/.profile; open ~/.profile"
+
+	3) Set notify_script_location in the profile
+
+	4) run "source ~/.bash_profile"
+
+	5) Message, title, and icon can be editted with editing_instructions.txt in the notify folder. 
+
+	6) run_huge_job.sh && n 
