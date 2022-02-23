@@ -1,3 +1,18 @@
+# Note: 
+
+This script was broken by Big Sur. It's now here purely for demonstration purposes.
+
+You can still get the job-finished ding without the OSX notification by adding this to your bash profile.  
+
+```
+alias success="(afplay $notify_script_location/Sounds/Glass.aiff > /dev/null &)"
+alias fail="(afplay /System/Library/Sounds/Sosumi.aiff > /dev/null &)"
+
+alias notify="success || fail"
+alias n="success || fail"
+```
+
+
 # MacOS-Notify-Script
 Tired of running big jobs, browsing the internet while waiting, and then not noticing when the job is complete! This bash script gives a nice little notification complete with icon, sound, and unobtrusive notification popup. 
 
